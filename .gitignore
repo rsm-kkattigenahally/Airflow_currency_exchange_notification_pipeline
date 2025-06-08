@@ -1,3 +1,4 @@
 docker-compose.yaml
 /__pycache__
 /logs
+keys.txt
