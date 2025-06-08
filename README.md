@@ -1,8 +1,8 @@
-# USD to INR Exchange Rate Notifier (Apache Airflow + Docker)
+# Currency Exchange Rate Notifier (Apache Airflow + Docker)
 
 This project implements a daily ETL pipeline using Apache Airflow (v3.x) running on Docker that:
 
-- Fetches the USD to INR exchange rate daily from [Fixer.io](https://fixer.io)
+- Fetches the EUR to INR exchange rate daily from [Fixer.io](https://fixer.io)
 - Stores the rate in a local CSV log
 - Sends an email alert (via Mailtrap SMTP) if the rate drops compared to the previous day
 
