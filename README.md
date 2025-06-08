@@ -1,4 +1,4 @@
-# USD to INR Exchange Rate Notifier (Apache Airflow + Docker)
+# Currency Exchange Rate Notifier (Apache Airflow + Docker)
 
 This project implements a daily ETL pipeline using Apache Airflow (v3.x) running on Docker that:
 
